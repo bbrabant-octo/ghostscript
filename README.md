@@ -10,7 +10,7 @@ To compress a PDF named 'big_file.pdf' in current directory and produce the 'sma
 docker run --rm -ti \
   -v "$PWD":/work \
   --workdir /work \
-  jess/ghostscript \
+  benoit74/ghostscript \
   -sDEVICE=pdfwrite \
   -dCompatibilityLevel=1.4 \
   -dQUIET \
